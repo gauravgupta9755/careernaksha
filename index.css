@@ -1,0 +1,211 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    text-align: center;
+    display: inline;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+/* section-1--------------------------------------------------------------------- */
+.logo_contenar img{
+    width: 12vw;
+
+}
+
+.section_1{
+    display: flex;
+    background-image: url(image/background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:50vw;
+
+}
+.section_1_half_left_div{
+    display: inline;
+    width: 50vw;
+    margin-right: auto;
+    padding-left: 12px;
+    text-align: center;
+    margin-top:12% ;
+}
+.heading_contenar{
+    margin-top: 5px;
+    margin-bottom:15px ;
+}
+.main_heading{
+    font-size:2vw;
+
+}
+.second_heading{
+    font-size: 4vw;
+    font-weight:normal;
+
+}
+.paragrph_contenar{
+    font-size: 1.8vw;
+
+}
+.list_contenar{
+    
+    margin-top: 28px;
+  
+
+}
+.list_contenar table{
+    font-size: 1.5vw;
+    
+    
+    margin: auto;
+
+}
+.list_contenar table tr td {
+   text-align: left;
+    
+}
+
+.list_contenar table tr td img{
+    width: 2vw;
+
+}
+
+.button_contenar{
+    margin-top: 25px;
+
+}
+.button_contenar button{
+margin-right: 25px ;
+width: 10vw;
+height: 3vw;
+background-color: transparent;
+border: 2px solid #57e29f;
+border-radius: 2px;
+padding: auto;
+color: #57e29f;
+
+}
+
+.button_contenar button:active{
+background-color: #57e29f;
+color: white;
+}
+.button_contenar button:focus{
+    background-color: #57e29f;
+color: white;
+}
+
+
+/* Section-2------------------------------------------------------------------ */
+
+.section_2{
+    height: auto;
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2vw;
+}
+.section_2 h5{
+    font-size: 3vw;
+    font-weight: 500;
+    margin-top:30px ;
+    
+
+}
+.section_2 h1{
+    font-size:3vw ;
+    width: 100%;
+}
+.card_contenar{
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+   
+}
+.card{
+    
+    width: 30%;
+    
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 2px 2px 15px black;
+    padding-bottom: 10px ;
+
+}
+
+.card img{
+    width: 10vw;
+    margin-top: 30px;
+
+   
+}
+
+.card h1{
+    margin-top: 40px;
+}
+.card p{
+    font-size: 1.3;
+}
+
+/* section-3(form-section)-------------------------------------------------------- */
+.form_section{
+    height: 53vw;
+    background-color: rgb(150, 239, 253);
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 10px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.form_section h1{
+    
+}
+.form_contenar{
+    width: 53vw;
+    height: 46vw;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    background-color: white;
+}
+
+/* section-3(footer-section)------------------------------------ */
+
+.footer_section{
+    width: 100%;
+    display: flex;
+    padding-top:60px ;
+}
+.footer_left_section{
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.footer_left_top_section{
+    font-size: 3vw;
+}
+.footer_left_top_section h6{
+    font-size: 4vw;
+}
+.footer_left_buttom_section div{
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.footer_left_buttom_section img{
+width: 20px;
+margin-right: 10px;
+}
+.footer_right_section{
+width: 50%;
+}
+.footer_right_section img{
+    width: 100%;
+}
